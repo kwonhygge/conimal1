@@ -16,6 +16,10 @@
 
 }
 
+.list-el:hover{
+    cursor: pointer;
+}
+
 .question{
     display: flex;
     margin-top: 43px;
