@@ -59,15 +59,14 @@ body{
 }
 
 
-
-
-
 /* footer section */
 
 #footer{
-    position: relative;
-    z-index:2;
+    position: fixed;
+    left: 0;
+    bottom: 0;
     margin-bottom: 30px;
+    width: 100%;
 }
 
 .footer{
