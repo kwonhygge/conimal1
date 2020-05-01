@@ -1,14 +1,22 @@
 body{
     background-color: #d0d0d0;
 }
+.header{
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
 #whole-container{
 
     margin-top:242px;
 }
 
+
+
 #title-container{
     margin-left: 50px;
 }
+/* title date and tag */
 
 .title h1{
     font-weight: bolder;
