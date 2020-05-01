@@ -47,6 +47,7 @@ body{
     text-align: center;
 }
 .tag-name span{
+    font-weight: bold;
     display: inline-block;
     vertical-align: middle;
     font-size: 10px;
@@ -71,9 +72,18 @@ body{
 
 }
 .nav-box{
+    padding-left: 50px;
+    padding-top: 50px;
     width:534px;
     height:342px;
     background-color: #aeaeae;
+}
+
+.nav-box-top{
+    margin-bottom: 28px;
+}
+.nav-box-top span{
+    font-weight: 500;
 }
 
 /* footer section */
