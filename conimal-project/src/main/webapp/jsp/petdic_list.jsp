@@ -1,7 +1,10 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page session="false" %>
 <html>
     <head>
-        <link href="../../resources/css/list.css" rel="stylesheet" type="text/css">
-        <link href="list.css" rel="stylesheet" type="text/css" />
+        <title>Petdic</title>
+	    <%@ include file="/jsp/include/head.jsp" %>
     </head>
     <body>
         <div class="header"><span>코니멀</span></div>
