@@ -13,6 +13,7 @@
 
 #list-container{
     margin-top: 92px;
+    min-height: 600px;
 
 }
 
@@ -81,11 +82,13 @@
 /* footer section */
 
 #footer{
-    position: fixed;
     left: 0;
     bottom: 0;
     margin-bottom: 30px;
     width: 100%;
+}
+#footer.on{
+    position: static;
 }
 
 .footer{
@@ -107,3 +110,4 @@
 .right-element{
     margin-left: 30px;
 }
+
