@@ -1,0 +1,315 @@
+/* 헤더 영역 */
+
+
+header {
+	height: 90px; 
+	width: 100%; 
+	/* background-color : #fff; */ 
+	padding: 30px 50px; 
+	box-sizing: border-box;
+	text-align: center; 
+	position: fixed; 
+	top : 0; 
+	z-index : 1000;
+}
+
+.logo {
+	float:left; 
+	font-size: 30px;
+	display:inline-block;
+}
+
+.category {
+	text-align: center;
+	display: inline-block; 
+	line-height: 30px; 
+}
+
+.category li {
+	float: left; 
+	width: 100px; 
+}
+
+.category li.active{
+	border: 2px solid #ddd; 
+	border-radius : 20px; 
+}
+ 
+
+.header-right {
+	float:right;
+	display:inline-block; 
+	/* height: 100px;  */
+}
+
+header .login-btn {
+	width: 30px;
+	height: 30px; 
+	background : #000; 
+	border-radius : 100%;
+	font-size:6px; 
+	color: #fff;
+	line-height: 30px; 
+	text-align: center;
+	display:inline-block; 
+	margin-right: 30px; 
+	
+}
+header .search-btn {
+	display:inline-block;	
+}
+
+/* 페이지 컨테이너  */
+
+.page-container{
+	width: 861px; 
+	margin: auto; 
+	margin-top: 120px; 
+	padding-top: 30px; 
+	
+}
+
+/* 메인 컨텐츠 */
+
+
+.main-container {
+	display: flex;
+	position: relative;
+
+}
+
+.pet-dictionary,
+.community
+{
+	width: 50%; 
+	height: 100vh; 
+	box-sizing : border-box;
+	padding: 90px 0;
+	 
+}
+
+/* 메인 펫과사전 */
+
+.pet-dictionary{
+	background: #ddd;
+	overflow : scroll;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.pet-dictionary::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
+
+.pet-contents{
+	width: 100%;
+  	height: 360px;
+  	background-color: #d0d0d0;
+}
+
+.contents-title {
+	  width: 310px;
+  height: 40px;
+  font-family: NotoSansCJKkr;
+  font-size: 30px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  color: #000000;
+}
+
+
+.mouse-wheel{
+	width: 30px; 
+	height: 50px; 
+	border: 3px solid #000; 
+	position: absolute;
+	top: calc( 50vh - 25px );
+	left : calc( 50vw - 70px);
+}
+
+
+/* 메인 커뮤니티 */
+
+.community {
+	background: #fff;
+	padding: 130px 50px; 
+	box-sizing : border-box;
+	text-align: center;
+}
+
+.select-box {
+	padding: 20px 10px; 
+	
+}
+
+.write-btn {
+  width: 70px;
+  height: 24px;
+  border-radius: 20px;
+  background-color: #eaeaea;
+  border: none; 
+  float: right; 
+  font-size:12px;
+}
+
+
+
+.board-list {
+	width: 100%; 
+	padding: 0 20px;
+	box-sizing: border-box; 
+}
+
+.board-item {
+	height: 60px;
+ 	border-bottom : 1px solid #ddd;
+ 	line-height: 60px; 	
+	text-align:left;
+	display: flex;
+	 
+}
+
+.new {
+	display:inline-block;
+	width: 30px; 
+	height: 30px; 
+	border-radius : 100%; 
+	background: yellow;
+    line-height: 30px;
+    text-align: center;
+
+}
+
+.new span {
+    line-height: 30px;
+    font-size: 7px;
+    text-align: center;
+}
+
+.board {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+
+.board.tit {
+	width: 80%;
+	text-align: left; 
+}
+
+.board.name {
+	width: 20%;
+	text-align: right; 
+}
+
+.board.date {
+	width: 18%;
+	text-align: right; 
+}
+
+
+.board.view-cnt {
+	width:8%;
+	text-align: right; 
+}
+
+.board.pre-next {
+	width:18%;
+	text-align: left; 
+}
+
+
+
+.user-img {
+	display: inline-block; 
+	width: 20px; 
+	height: 20px; 
+	border-radius : 100%; 
+	background : #ddd; 
+	margin-top: -3px;
+    vertical-align: middle;	
+}
+
+
+.more-btn {
+  width: 120px;
+  height: 40px;
+  border-radius: 21px;
+  background-color: #eaeaea;
+  text-align:center; 
+  font-weight: 600; 
+  font-size: 16px; 
+  border: none;
+   
+  display: inline-block; 
+  margin: 40px auto; 
+}
+
+/* 베스트  */
+
+.best {
+	display:inline-block;
+	width: 30px; 
+	height: 30px; 
+	border-radius : 100%; 
+	background: green;
+    line-height: 30px;
+    text-align: center;
+
+}
+
+.best span {
+    line-height: 30px;
+    font-size: 7px;
+    text-align: center;
+}
+
+.best-board {
+	background: #aaa;
+	margin-bottom: 20px; 
+}
+
+.best-board .board-item:last-child {
+	border-bottom: none;
+}
+
+
+
+/* 푸터 영역 */
+
+footer{
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 80px; 
+    box-sizing: border-box;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between; 
+    font-size: 13px; 
+    position: fixed; 
+  	left: 0;
+    bottom: 0;
+    z-index : 1000;
+}
+
+
+.copyright{
+   display: flex;
+}
+
+
+.terms{
+    display: flex;
+    margin-right: 50px;
+}
+
+.right-element{
+    margin-left: 30px;
+}
+
+
