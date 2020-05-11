@@ -8,7 +8,7 @@
     </head>
     
     <body>
-        <div class="header"><span>코니멀</span></div>
+        <%@ include file="/jsp/include/header.jsp" %>
         <div id="whole-container">
             <section id="title-container">
                 <div class="title">
@@ -81,17 +81,7 @@
                 </div>
                 
             </section>
-            
-            <section id="footer">
-                <div class="footer">
-                    <div class="left"><span>Copyright Conimal. All Rights Reserved.</span></div>
-                    <div class="right">
-                        <div class="right-element"><span>이용약관</span></div>
-                        <div class="right-element"><span>개인정보취급방침</span></div>
-                    </div>
-                    
-                </div>
-            </section>
         </div>
+        <%@ include file="/jsp/include/footer.jsp" %>
     </body>
 </html>

@@ -1,12 +1,15 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page session="false" %>
 <html>
     <head>
-        <link href="../../resources/css/contents.css" rel="stylesheet" type="text/css">
-        <link href="content.css" rel="stylesheet" type="text/css" />
-        
+        <title>contents</title>
+	    <%@ include file="/jsp/include/head.jsp" %>
     </head>
+    
     <body>
-        <div class="header"><span>코니멀</span></div>
-        <div id="whole-container">
+        <div class="pet-dictionary">
+            <%@ include file="/jsp/include/header.jsp" %>
             <section id="title-container">
                 <div class="title">
                     <h1>나는 반려인이 될 준비가 <br> 되어있을까?</h1>
@@ -78,17 +81,7 @@
                 </div>
                 
             </section>
-            
-            <section id="footer">
-                <div class="footer">
-                    <div class="left"><span>Copyright Conimal. All Rights Reserved.</span></div>
-                    <div class="right">
-                        <div class="right-element"><span>이용약관</span></div>
-                        <div class="right-element"><span>개인정보취급방침</span></div>
-                    </div>
-                    
-                </div>
-            </section>
         </div>
+        <%@ include file="/jsp/include/footer.jsp" %>
     </body>
 </html>

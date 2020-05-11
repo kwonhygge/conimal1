@@ -7,7 +7,7 @@
 	    <%@ include file="/jsp/include/head.jsp" %>
     </head>
     <body>
-        <div class="header"><span>코니멀</span></div>
+        <%@ include file="/jsp/include/header.jsp" %>
         <div id="whole-container">
             <section id="list-container">
                 <div class="drop-down">
@@ -73,16 +73,7 @@
                 </div>
             </section>
         </div>
-        <section id="footer">
-            <div class="footer">
-                <div class="left"><span>Copyright Conimal. All Rights Reserved.</span></div>
-                <div class="right">
-                    <div class="right-element"><span>이용약관</span></div>
-                    <div class="right-element"><span>개인정보취급방침</span></div>
-                </div>
-                
-            </div>
-        </section>
+        <%@ include file="/jsp/include/footer.jsp" %>
         <script type="text/javascript">
             const elements = document.querySelectorAll(".list-el");
             const answers = document.querySelectorAll(".answer");
