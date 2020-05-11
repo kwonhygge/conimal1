@@ -1,16 +1,18 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page session="false" %>
 <html>
-    <head>
-        <link href="../../resources/css/contents.css" rel="stylesheet" type="text/css">
-        <link href="content.css" rel="stylesheet" type="text/css" />
-        
+    <head></head>
+        <title>contents</title>
+	    <%@ include file="/jsp/include/head.jsp" %>
     </head>
+    
     <body>
-        <div class="header"><span>코니멀</span></div>
-        <div id="whole-container">
-            <section id="title-container">
-                <div class="title">
-                    <h1>나는 반려인이 될 준비가 <br> 되어있을까?</h1>
-                </div>
+        <%@ include file="/jsp/include/header.jsp" %>
+        <div class="petdic-detail-container">
+            
+            <section class="title-container list">
+                <h1 class="content-title">나는 반려인이 될 준비가 <br> 되어있을까?</h1>
                 
                 <div class="date-and-tag">
                     <div class="date"><span>2020.03.29</span></div>
@@ -53,7 +55,7 @@
 
                     <div class="prev nav-box">
                         <div class="nav-box-top"><span>PREV</span></div>
-                        <div class="title"><h1 style="font-size:30px;">콘텐츠 제목</h1></div>
+                        <div class="title bold"><h1 style="font-size:30px;">콘텐츠 제목</h1></div>
                         <div class="date-and-tag">
                                 <div class="date"><span>2020.03.29</span></div>
                                 <ul class="tags">
@@ -65,7 +67,7 @@
 
                     <div class="next nav-box">
                         <div class="nav-box-top"><span >NEXT</span></div>
-                        <div class="title"><h1 style="font-size:30px;">콘텐츠 제목</h1></div>
+                        <div class="title bold"><h1 style="font-size:30px;">콘텐츠 제목</h1></div>
                         <div class="date-and-tag">
                                 <div class="date"><span>2020.04.01</span></div>
                                 <ul class="tags">
@@ -78,17 +80,7 @@
                 </div>
                 
             </section>
-            
-            <section id="footer">
-                <div class="footer">
-                    <div class="left"><span>Copyright Conimal. All Rights Reserved.</span></div>
-                    <div class="right">
-                        <div class="right-element"><span>이용약관</span></div>
-                        <div class="right-element"><span>개인정보취급방침</span></div>
-                    </div>
-                    
-                </div>
-            </section>
         </div>
+        <%@ include file="/jsp/include/footer.jsp" %>
     </body>
 </html>

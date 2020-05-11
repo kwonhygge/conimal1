@@ -12,9 +12,7 @@
 <div class = "main-container">
 	<section class="pet-dictionary">
 		<div class="list">
-			<div class="title">
-				<h1>콘텐츠 제목</h1>
-			</div>
+			<h1>콘텐츠 제목</h1>
 	
 			<div class="date-and-tag">
 				<div class="date">
@@ -28,9 +26,7 @@
 			</div>
 		</div>
 		<div class="list">
-			<div class="title">
-				<h1>콘텐츠 제목</h1>
-			</div>
+			<h1>콘텐츠 제목</h1>
 	
 			<div class="date-and-tag">
 				<div class="date">
@@ -44,9 +40,7 @@
 			</div>
 		</div>
 		<div class="list">
-			<div class="title">
-				<h1>콘텐츠 제목</h1>
-			</div>
+			<h1>콘텐츠 제목</h1>
 	
 			<div class="date-and-tag">
 				<div class="date">

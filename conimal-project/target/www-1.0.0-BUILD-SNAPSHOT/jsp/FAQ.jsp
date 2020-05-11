@@ -8,9 +8,9 @@
     </head>
     <body>
         <%@ include file="/jsp/include/header.jsp" %>
-        <div id="whole-container">
-            <section id="list-container">
-                <div class="drop-down">
+        <div id="faq-container">
+            <section class="list-container marL_50">
+                <div class="select-box">
                     <select name="order" id="">
                         <option value="">순서</option>
                         <option value="제목순">제목순</option>
@@ -18,7 +18,7 @@
                         <option value="날짜순">날짜순</option>
                     </select>
                 </div>
-                <div class="list">
+                <div class="faq-list">
                     <div class="list-el">
                         <div class="question">
                             <div class="question-header">

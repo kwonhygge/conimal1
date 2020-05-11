@@ -8,9 +8,9 @@
     </head>
     <body>
         <%@ include file="/jsp/include/header.jsp" %>
-        <div id="whole-container">
+        <div id="petdic-container">
             
-            <section id="list-container">
+            <section class="list-container">
                 <div class="list">
                     <div class="title">
                         <h1>콘텐츠 제목</h1>

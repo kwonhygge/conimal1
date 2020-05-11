@@ -1,13 +1,16 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page session="false" %>
 <html>
     <head>
-        <link href="../../resources/css/list.css" rel="stylesheet" type="text/css">
-        <link href="list.css" rel="stylesheet" type="text/css" />
+        <title>Petdic</title>
+	    <%@ include file="/jsp/include/head.jsp" %>
     </head>
     <body>
-        <div class="header"><span>코니멀</span></div>
-        <div id="whole-container">
+        <%@ include file="/jsp/include/header.jsp" %>
+        <div id="petdic-container">
             
-            <section id="list-container">
+            <section class="list-container">
                 <div class="list">
                     <div class="title">
                         <h1>콘텐츠 제목</h1>
@@ -42,16 +45,7 @@
     
             
         </div>
-        <section id="footer">
-            <div class="footer">
-                <div class="left"><span>Copyright Conimal. All Rights Reserved.</span></div>
-                <div class="right">
-                    <div class="right-element"><span>이용약관</span></div>
-                    <div class="right-element"><span>개인정보취급방침</span></div>
-                </div>
-                
-            </div>
-        </section>
+        <%@ include file="/jsp/include/footer.jsp" %>
         
     </body>
 </html>
