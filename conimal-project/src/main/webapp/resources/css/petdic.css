@@ -1,130 +1,74 @@
-/* body{
-    background-color: #d0d0d0;
-} */
 #petdic-container{
 
     margin-top:242px;
 }
 
-.title-container{
-    margin-left: 50px;
+
+/* Card */
+.card{
+  width:250px;
+  border: 2px solid #F0F0F0;
+  border-radius: 20px;
 }
 
-.content-title{
-    font-weight: bolder;
-    font-size: 50px;
+.card-img{
+  width:250px;
+  height: 170px;
+  overflow: hidden;
 }
 
-.list-container{
-    margin-left: 50px;
-    margin-bottom: 100px;
+.card-img img{
+  height: 100%;
+  width: 100%;
 }
 
-/* list and date and tag */
-
-.list{
-    margin-top:242px;
-  }
-  
-  
-  .list h1{
-    font-size: 40px;
-  }
-  
-  
-  
-  .date-and-tag{
-    margin-top: 40px;
-    display: flex;
-  }
-  
-  .date{
-    height:24px;
-  }
-  
-  .date span{
-    font-weight: bold;
-    display: inline-block;
-    vertical-align: middle;
-    font-size: 18px;
-    line-height: 24px;
-  }
-  
-  .tags{
-    height:24px;
-    margin-left: 20px;
-    display: flex;
-  }
-  
-  .tag-name{
-    height: 24px;
-    background-color:#eaeaea;
-    list-style-type: none;
-    border-radius: 10px;
-    margin-right: 10px;
-    text-align: center;
-  }
-  .tag-name span{
-    font-weight: bold;
-    display: inline-block;
-    vertical-align: middle;
-    font-size: 10px;
-    line-height: 24px;
-    margin: 0 8px;
-  }
-  
-
-.content{
-    margin: 100 50;
+.card-content{
+  margin: 20px;
 }
 
-
-/* nav section */
-#nav-section{
-    position: relative;
-    float: right;
-    z-index:1;
-    top: 30px;
-    margin-top: 20px;
-}
-.nav-box-container{
-    
-    display: flex;
-
-}
-.nav-box{
-    padding-left: 50px;
-    padding-top: 50px;
-    width:534px;
-    height:342px;
-    background-color: #aeaeae;
+.kinds{
+  display: flex;
+  align-items: flex-start;
 }
 
-.nav-box-top{
-    margin-bottom: 28px;
-}
-.nav-box-top span{
-    font-weight: 500;
-}
-
-.title{
-    height: 24px;
-}
-.title span{
-    font-weight: bold;
-    display: inline-block;
-    vertical-align: middle;
-    font-size: 18px;
-    line-height: 24px;
+.kind{
+  font-size: 12px;
+  color: #4F4F4F;
+  position:relative;
 }
 
+.kind:after{
+  content:"";
+  width: 1px;
+  height: 8px;
+  background: #4F4F4F;
+  position: absolute;
+  margin-left: 6px;
+}
 
-/* footer section
-
-#footer{
-    position: relative;
-    z-index:2;
-    float: right;
-
-} */
+.item-name{
+  font-size:14px;
+  font-weight: bold;
+  margin-top:10px;
+}
+.poll-bar{
+  width:210px;
+  height:10px;
+  background: #F0F0F0;
+  margin-top:40px;
+  border-radius: 10px;
+}
+.poll-status{
+  color: #000000;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 8px;
+  line-height: 160%;
+}
+.stacked-number{
+  color: #C8C8C8;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 160%;
+}
 
