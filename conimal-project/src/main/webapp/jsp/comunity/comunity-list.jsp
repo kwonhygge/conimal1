@@ -89,6 +89,35 @@
 						<span class="date bold">2020.06.25</span>
 					</div>
 				</div>
+				<div class="board-item">
+					<div class="board-first-raw">
+						<div>
+							<span class="title bold">게시판 리스트: 콘텐츠 제목1</span>
+							<span class="chat-icon"></span>
+							<span class="view-cnt">1</span>
+							<span class="new">new</span>
+						</div>
+						<span class="user bold">사용자</span>
+					</div>
+					<div class="board-second-raw">				
+						<div class="tags">
+							<div class="tag-name">
+								<span>#</span>
+								<span>asdf</span>
+							</div>
+							<div class="tag-name">
+								<span>#</span>
+								<span>asdf</span>
+							</div>
+							<div class="tag-name">
+								<span>#</span>
+								<span>asdf</span>
+							</div>
+						</div>
+						<span class="date bold">2020.06.25</span>
+					</div>
+				</div>
+				
 							
 			</div>
 	
