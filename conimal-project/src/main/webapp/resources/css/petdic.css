@@ -3,9 +3,17 @@
     margin-top:242px;
 }
 
+.cards-container{
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+
 
 /* Card */
 .card{
+  margin-left: 20px;
+  margin-top: 
   width:250px;
   border: 2px solid #F0F0F0;
   border-radius: 20px;
@@ -37,13 +45,10 @@
   position:relative;
 }
 
-.kind:after{
-  content:"";
-  width: 1px;
-  height: 8px;
-  background: #4F4F4F;
-  position: absolute;
-  margin-left: 6px;
+.vl{
+  border-left: 1px solid #4F4F4F;
+  height: 10px;
+  margin-left:6px;
 }
 
 .item-name{
@@ -72,3 +77,24 @@
   line-height: 160%;
 }
 
+
+/* card hover */
+.card:hover{
+  border: 2px solid ##002F6C;
+  background: #002F6C;
+}
+.card:hover h2{
+  color:#FFF;
+}
+.card:hover .kind{
+  color: #A5C8FF;
+}
+.card:hover .vl{
+  border-color: #A5C8FF;
+}
+.card:hover .stacked-number{
+  color: #5A7FAE;
+}
+.card:hover .poll-bar{
+  background: #104E9F;
+}
