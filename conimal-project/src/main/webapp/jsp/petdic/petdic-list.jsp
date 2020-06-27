@@ -15,15 +15,121 @@
                     <div class="card-img"><img src="${pageContext.request.contextPath}/resources/imgs/temp.jpg" alt="item"></div>
                     <div class="card-content">
                         <div class="kinds">
-                            <h1 class="kind">고양이</h1>
+                            <h3 class="kind">고양이</h3>
+                          <div class="vl"></div>
                         </div>
-                        <h2 class="item-name">모데르나 로데르너 1 이동장</h2>
-                        <div class="poll-bar"></div>
-                        <h2 class="poll-status">투표 진행중</h2>
-                        <h2 class="stacked-number">누적 참여 91마리</h2>
+                      <h2 class="item-name">모데르나 로데르너 1 이동장</h2>
+                      <div class="poll-bar"></div>
+                      <h2 class="poll-status">투표 진행중</h2>
+                      <h3 class="stacked-number">누적 참여 91마리</h3>
+                        
                     </div>
                 </article>
+              
+              <article class="card">
+                    <div class="card-img"><img src="${pageContext.request.contextPath}/resources/imgs/temp.jpg" alt="item"></div>
+                    <div class="card-content">
+                        <div class="kinds">
+                            <h3 class="kind">강아지</h3>
+                        </div>
+                      <h2 class="item-name">모데르나 로데르너 1 이동장</h2>
+                      <div class="poll-bar"></div>
+                      <h2 class="poll-status">투표 진행중</h2>
+                      <h3 class="stacked-number">누적 참여 91마리</h3>
+                        
+                    </div>
+                </article>
+              
+              <article class="card">
+                    <div class="card-img"><img src="${pageContext.request.contextPath}/resources/imgs/temp.jpg" alt="item"></div>
+                    <div class="card-content">
+                        <div class="kinds">
+                            <h3 class="kind">고양이</h3>
+                          <div class="vl"></div>
+                        </div>
+                      <h2 class="item-name">모데르나 로데르너 1 이동장</h2>
+                      <div class="poll-bar"></div>
+                      <h2 class="poll-status">투표 진행중</h2>
+                      <h3 class="stacked-number">누적 참여 91마리</h3>
+                        
+                    </div>
+                </article>
+              
+              <article class="card">
+                    <div class="card-img"><img src="${pageContext.request.contextPath}/resources/imgs/temp.jpg" alt="item"></div>
+                    <div class="card-content">
+                        <div class="kinds">
+                            <h3 class="kind">고양이</h3>
+                          <div class="vl"></div>
+                        </div>
+                      <h2 class="item-name">모데르나 로데르너 1 이동장</h2>
+                      <div class="poll-bar"></div>
+                      <h2 class="poll-status">투표 진행중</h2>
+                      <h3 class="stacked-number">누적 참여 91마리</h3>
+                        
+                    </div>
+                </article>
+              
             </div>
+  
+  <div class="cards-container">
+                                <article class="card">
+                    <div class="card-img"><img src="${pageContext.request.contextPath}/resources/imgs/temp.jpg" alt="item"></div>
+                    <div class="card-content">
+                        <div class="kinds">
+                            <h3 class="kind">고양이</h3>
+                          <div class="vl"></div>
+                        </div>
+                      <h2 class="item-name">모데르나 로데르너 1 이동장</h2>
+                      <div class="poll-bar"></div>
+                      <h2 class="poll-status">투표 진행중</h2>
+                      <h3 class="stacked-number">누적 참여 91마리</h3>
+                        
+                    </div>
+                </article>
+                            <article class="card">
+                    <div class="card-img"><img src="${pageContext.request.contextPath}/resources/imgs/temp.jpg" alt="item"></div>
+                    <div class="card-content">
+                        <div class="kinds">
+                            <h3 class="kind">고양이</h3>
+                          <div class="vl"></div>
+                        </div>
+                      <h2 class="item-name">모데르나 로데르너 1 이동장</h2>
+                      <div class="poll-bar"></div>
+                      <h2 class="poll-status">투표 진행중</h2>
+                      <h3 class="stacked-number">누적 참여 91마리</h3>
+                        
+                    </div>
+                </article>
+                            <article class="card">
+                    <div class="card-img"><img src="${pageContext.request.contextPath}/resources/imgs/temp.jpg" alt="item"></div>
+                    <div class="card-content">
+                        <div class="kinds">
+                            <h3 class="kind">고양이</h3>
+                          <div class="vl"></div>
+                        </div>
+                      <h2 class="item-name">모데르나 로데르너 1 이동장</h2>
+                      <div class="poll-bar"></div>
+                      <h2 class="poll-status">투표 진행중</h2>
+                      <h3 class="stacked-number">누적 참여 91마리</h3>
+                        
+                    </div>
+                </article>
+                            <article class="card">
+                    <div class="card-img"><img src="${pageContext.request.contextPath}/resources/imgs/temp.jpg" alt="item"></div>
+                    <div class="card-content">
+                        <div class="kinds">
+                            <h3 class="kind">고양이</h3>
+                          <div class="vl"></div>
+                        </div>
+                      <h2 class="item-name">모데르나 로데르너 1 이동장</h2>
+                      <div class="poll-bar"></div>
+                      <h2 class="poll-status">투표 진행중</h2>
+                      <h3 class="stacked-number">누적 참여 91마리</h3>
+                        
+                    </div>
+                </article>
+  </div>
             
         </div>
         <%@ include file="/jsp/include/footer.jsp" %>
