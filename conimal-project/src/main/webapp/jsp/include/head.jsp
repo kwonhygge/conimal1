@@ -19,6 +19,7 @@
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/FAQ_list.css">
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/list.css">
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/login.css">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/my-page.css">
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/comunity.css">
 <script src="${pageContext.request.contextPath}/resources/js/jquery/jquery-2.2.4.min.js"></script>
 <script src="${pageContext.request.contextPath}/resources/js/jquery/jquery-3.3.1.min.js"></script>
