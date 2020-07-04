@@ -59,19 +59,23 @@ header .search-btn {
 	display:inline-block;	
 }
 
+
+
+
 /* 페이지 컨테이너  */
 
 .page-container{
-	width: 861px; 
+	width: 1060px; 
 	margin: auto; 
 	margin-top: 120px; 
 	padding-top: 30px; 
 	
 }
 
+
+
+
 /* 메인 컨텐츠 */
-
-
 .main-container {
 	display: flex;
 	position: relative;
@@ -87,6 +91,8 @@ header .search-btn {
 	padding: 90px 0;
 	 
 }
+
+
 
 /* 메인 펫과사전 */
 
@@ -136,7 +142,55 @@ header .search-btn {
 
 
 
-/* 자주 묻는 질문 */
+
+/* 사이드메뉴 영역 aisde */
+
+aside {
+	width: 250px; 
+	height: 447px; 
+	padding : 50px 20px; 
+	box-sizing: border-box;
+	border: 2px solid #F0F0F0; 
+	float: left;
+	text-align:center;  
+}
+
+
+.nickname {
+	line-height: 36px; ;
+	margin-bottom: 15px; 
+	display:inline-block; 
+	
+}
+
+.userId {
+	font-family: Noto Sans CJK KR;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 21px; 
+	color: #c8c8c8; 
+	margin-bottom: 37px; 
+}
+
+.my-page-list li {
+	line-height: 23px; 
+	font-size: 16px; 
+	color: #828282;
+	margin-bottom: 20px; 
+}
+
+
+/* 서브 컨테이너 */
+
+.sub-container {
+	width: 790px;
+	height: auth;
+	float: right; 
+	border: 2px solid #F0F0F0;
+	box-sizing: border-box;
+	padding: 46px; 
+}
 
 
 
