@@ -21,6 +21,7 @@
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/login.css">
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/my-page.css">
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/comunity.css">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/main.css">
 <script src="${pageContext.request.contextPath}/resources/js/jquery/jquery-2.2.4.min.js"></script>
 <script src="${pageContext.request.contextPath}/resources/js/jquery/jquery-3.3.1.min.js"></script>
 <script>var $j = jQuery.noConflict(true);</script>
