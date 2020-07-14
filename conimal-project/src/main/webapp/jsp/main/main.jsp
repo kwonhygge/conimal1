@@ -51,7 +51,20 @@
 
   <section class="main-pt2-header">
     <div class="main-pt2-img"></div>
-    <div class="main-pt2-content"></div>
+    <div class="main-pt2-content">
+      <h1>혹시 여기에<br> 구매해 본 제품이 있나요?</h1>
+      <h2>쇼핑몰에서는 별점 만점인 제품도 우리 애들은 관심이 없을 때,<br> 보호자는 마음도 지갑도 너덜너덜해집니다.
+      <br>
+        <span>코니멀은 쇼핑몰의 후기와 다른, 새로운 지표가 고민했습니다.</span></h2>
+      
+      <ul class="index-lists">
+        <li>내 반려동물의 호불호 투표하기</li>
+        <li>한 제품 당 백마리 반려동물의 응답이 모이면 결과 오픈</li>
+        <li>응답이 누적될 수록 정확도 UP, UP!</li>
+      </ul>
+      <button class="btn look-around marT_30" id="look-around">펫과사전 확인하기</button>
+      
+    </div>
   </section>
   
 	<%@ include file="/jsp/include/footer.jsp" %>
