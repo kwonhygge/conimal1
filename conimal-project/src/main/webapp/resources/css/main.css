@@ -41,4 +41,34 @@
   .main-pt2-content{
     width:50%;
     background-color:#EFB661;
+    padding-left:40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .main-pt2-content h1{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+  }
+  .main-pt2-content h2{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    margin-top: 20px;
+  }
+  .main-pt2-content h2 span{
+    line-height: 250%;
+  }
+  
+  .index-lists{
+    list-style: none;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 160%;
+    margin-top: 22.5px;
+  }
+
+  .look-around{
+    width: 172px;
   }
