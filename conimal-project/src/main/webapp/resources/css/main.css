@@ -72,3 +72,12 @@
   .look-around{
     width: 172px;
   }
+
+  /*Product section*/
+
+
+  .product-cards-container{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+  }

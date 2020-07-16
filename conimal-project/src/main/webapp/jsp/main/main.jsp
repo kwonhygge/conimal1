@@ -66,6 +66,129 @@
       
     </div>
   </section>
+
+  <section class="product-section">
+    
+    <div class="product-cards-container">
+      <article class="product-card">
+          <div class="product-card-img"><img src="${pageContext.request.contextPath}/resources/imgs/temp.jpg" alt="item"></div>
+          <div class="product-card-content">
+              <div class="product-kinds">
+                  <h3 class="product-kind">고양이</h3>
+                <div class="vl"></div>
+              </div>
+            <h2 class="item-name">모데르나 로데르너 1 이동장</h2>
+            <div class="poll-bar"></div>
+            <h2 class="poll-status">투표 진행중</h2>
+            <h3 class="stacked-number">누적 참여 91마리</h3>
+              
+          </div>
+      </article>
+     <article class="product-card">
+          <div class="product-card-img"><img src="${pageContext.request.contextPath}/resources/imgs/temp.jpg" alt="item"></div>
+          <div class="product-card-content">
+              <div class="product-kinds">
+                  <h3 class="product-kind">고양이</h3>
+                <div class="vl"></div>
+              </div>
+            <h2 class="item-name">모데르나 로데르너 1 이동장</h2>
+            <div class="poll-bar"></div>
+            <h2 class="poll-status">투표 진행중</h2>
+            <h3 class="stacked-number">누적 참여 91마리</h3>
+              
+          </div>
+      </article>
+     <article class="product-card">
+          <div class="product-card-img"><img src="${pageContext.request.contextPath}/resources/imgs/temp.jpg" alt="item"></div>
+          <div class="product-card-content">
+              <div class="product-kinds">
+                  <h3 class="product-kind">고양이</h3>
+                <div class="vl"></div>
+              </div>
+            <h2 class="item-name">모데르나 로데르너 1 이동장</h2>
+            <div class="poll-bar"></div>
+            <h2 class="poll-status">투표 진행중</h2>
+            <h3 class="stacked-number">누적 참여 91마리</h3>
+              
+          </div>
+      </article>
+     <article class="product-card">
+          <div class="product-card-img"><img src="${pageContext.request.contextPath}/resources/imgs/temp.jpg" alt="item"></div>
+          <div class="product-card-content">
+              <div class="product-kinds">
+                  <h3 class="product-kind">고양이</h3>
+                <div class="vl"></div>
+              </div>
+            <h2 class="item-name">모데르나 로데르너 1 이동장</h2>
+            <div class="poll-bar"></div>
+            <h2 class="poll-status">투표 진행중</h2>
+            <h3 class="stacked-number">누적 참여 91마리</h3>
+              
+          </div>
+      </article>
+
+</div>
+<div class="product-cards-container">
+  <article class="product-card">
+      <div class="product-card-img"><img src="${pageContext.request.contextPath}/resources/imgs/temp.jpg" alt="item"></div>
+      <div class="product-card-content">
+          <div class="product-kinds">
+              <h3 class="product-kind">고양이</h3>
+            <div class="vl"></div>
+          </div>
+        <h2 class="item-name">모데르나 로데르너 1 이동장</h2>
+        <div class="poll-bar"></div>
+        <h2 class="poll-status">투표 진행중</h2>
+        <h3 class="stacked-number">누적 참여 91마리</h3>
+          
+      </div>
+  </article>
+ <article class="product-card">
+      <div class="product-card-img"><img src="${pageContext.request.contextPath}/resources/imgs/temp.jpg" alt="item"></div>
+      <div class="product-card-content">
+          <div class="product-kinds">
+              <h3 class="product-kind">고양이</h3>
+            <div class="vl"></div>
+          </div>
+        <h2 class="item-name">모데르나 로데르너 1 이동장</h2>
+        <div class="poll-bar"></div>
+        <h2 class="poll-status">투표 진행중</h2>
+        <h3 class="stacked-number">누적 참여 91마리</h3>
+          
+      </div>
+  </article>
+ <article class="product-card">
+      <div class="product-card-img"><img src="${pageContext.request.contextPath}/resources/imgs/temp.jpg" alt="item"></div>
+      <div class="product-card-content">
+          <div class="product-kinds">
+              <h3 class="product-kind">고양이</h3>
+            <div class="vl"></div>
+          </div>
+        <h2 class="item-name">모데르나 로데르너 1 이동장</h2>
+        <div class="poll-bar"></div>
+        <h2 class="poll-status">투표 진행중</h2>
+        <h3 class="stacked-number">누적 참여 91마리</h3>
+          
+      </div>
+  </article>
+ <article class="product-card">
+      <div class="product-card-img"><img src="${pageContext.request.contextPath}/resources/imgs/temp.jpg" alt="item"></div>
+      <div class="product-card-content">
+          <div class="product-kinds">
+              <h3 class="product-kind">고양이</h3>
+            <div class="vl"></div>
+          </div>
+        <h2 class="item-name">모데르나 로데르너 1 이동장</h2>
+        <div class="poll-bar"></div>
+        <h2 class="poll-status">투표 진행중</h2>
+        <h3 class="stacked-number">누적 참여 91마리</h3>
+          
+      </div>
+  </article>
+
+</div>
+
+  </section>
   
 	<%@ include file="/jsp/include/footer.jsp" %>
 </body>
