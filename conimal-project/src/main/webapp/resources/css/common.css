@@ -55,8 +55,8 @@
 /* element */
 
 .btn {
-	padding: 10px 25px;
-	height: 43px;
+	padding: 0 25px;
+	line-height: 43px; 
 	border: 2px solid #002F6C;
 	box-sizing: border-box;
 	border-radius: 5px;
@@ -66,6 +66,12 @@
 	background : #fff; 
 	font-weight: 700; 
 }
+
+.btn.small-btn {
+	line-height: 29px; 
+}
+
+
 
 .btn:hover {
 	color: white; 
@@ -108,3 +114,23 @@
 	background : #002F6C;
 	color:white;
 }
+
+
+.paginationBox {
+	
+}
+
+.pagination {
+	
+}
+
+.paging-item {
+	
+}
+
+.paging-item:hover {
+	color: #dddddd;
+}
+
+
+
