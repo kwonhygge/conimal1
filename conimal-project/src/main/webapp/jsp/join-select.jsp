@@ -12,11 +12,12 @@
 <div class = "page-container">
 	<div class="join-container">
 		
+		<h4 class="marB_50">회원가입</h4>
+			
 		<div class="join-api-box">
-			<div class="join-api">이메일로 회원가입</div>
-			<div class="join-api">구글 아이디로 회원가입</div>
-			<div class="join-api">카카오 아이디로 회원가입</div>
-			<div class="join-api">페이스북 아이디로 회원가입</div>
+			<button class="login-api">이메일로 회원가입</button>
+			<button class="login-api" id ="google-api">구글 아이디로 회원가입</button>
+			<button class="login-api" id ="kakao-api">카카오 아이디로 회원가입</button>
 		</div>
 	
 	</div>
