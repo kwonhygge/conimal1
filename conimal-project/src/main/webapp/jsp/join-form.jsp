@@ -14,25 +14,29 @@
 		<div class="join-box">
 		
 			<div>
-				<input class="user-input" id="user-nickname" type="text" placeholder="닉네임" />
+				<span>닉네임</span>
+				<input class="user-input" type="text" placeholder="한글 및 영문 10자 이하" />
 			</div>
 			<div>
-				<input class="user-input" id="user-id" type="text" placeholder="아이디" />
+				<span>아이디</span>
+				<input class="user-input" type="text" placeholder="영문, 숫자조합 4자리 이상 10자리 이하 " />
 			</div>
 			<div>
-				<input class="user-input" id="user-pwd" type="text" placeholder="비밀번호" />
+				<span>비밀번호</span>
+				<input class="user-input" type="text" placeholder="영문, 숫자조합  8자리 이상" />
 			</div>
 			<div>
-				<input class="user-input" id="check-pwd"type="text" placeholder="비밀번호 재입력" />
+				<span></span>
+				<input class="user-input" type="text" placeholder="영문, 숫자조합  8자리 이상" />
 			</div>
 			<div>
-				<input class="user-input" id="user-email" type="text" placeholder="이메일" />
-				<input class="user-input" id="auth-btn" type="text" placeholder="인증" />
+				<span>이메일</span>
+				<input class="user-input" type="text" placeholder="이메일을 입력해주세요" />
 			</div>
 			
 			
 			
-			<button class="btn marT_20" id ="login">회원가입</button>
+			<button class="btn marT_20" id ="login">로그인</button>
 			
 		
 		</div>

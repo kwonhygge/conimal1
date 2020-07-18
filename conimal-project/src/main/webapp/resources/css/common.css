@@ -10,7 +10,6 @@
 .marB_20 { margin-bottom: 20px;}
 .marB_30 { margin-bottom: 30px;}
 .marB_40 { margin-bottom: 40px;}
-.marB_45 { margin-bottom: 45px;}
 .marB_50 { margin-bottom: 50px;}
 
 .marR_10 { margin-right: 10px;}
@@ -55,23 +54,32 @@
 /* element */
 
 .btn {
-	padding: 0 25px;
-	line-height: 43px; 
+	padding: 10px 25px;
+	width: 104px;
+	height: 43px;
+	border: 2px solid #002F6C;
+	box-sizing: border-box;
+	border-radius: 5px;
+	color: #002F6C; 
+}
+
+.btn:hover {
+	color: white; 
+	background-color : #002F6C;
+}
+
+
+.btn {
+	padding: 10px 25px;
+	width: 104px;
+	height: 43px;
 	border: 2px solid #002F6C;
 	box-sizing: border-box;
 	border-radius: 5px;
 	color: #002F6C; 
 	font-size:16px; 
 	text-align:center; 
-	background : #fff; 
-	font-weight: 700; 
 }
-
-.btn.small-btn {
-	line-height: 29px; 
-}
-
-
 
 .btn:hover {
 	color: white; 
@@ -114,24 +122,6 @@
 	background : #002F6C;
 	color:white;
 }
-
-
-.paginationBox {
-	
-}
-
-.pagination {
-	
-}
-
-.paging-item {
-	
-}
-
-.paging-item:hover {
-	color: #dddddd;
-}
-
 
 /* Card */
 .product-card{

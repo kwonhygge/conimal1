@@ -29,10 +29,9 @@
 }
 
 
-.community-nav {
-	display: flex; 
-	justify-content: space-between;
-	margin-bottom: 40px;
+.select-box {
+	padding: 20px 10px; 
+	
 }
 
 .write-btn {
