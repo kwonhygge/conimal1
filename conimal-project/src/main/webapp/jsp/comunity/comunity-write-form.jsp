@@ -18,10 +18,9 @@
 				<p class="sub">지금 코니멀 커뮤니티에서 사용되고 있는 해시태그를 확인하고 대화에 참여해보세요</p>
 				<div class="community-nav">
 					<div class="search-box">
-						<button class="btn small-btn">검색</button>
-						<button class="btn small-btn">10개</button>	
+				
 					</div>
-					<button class="btn small-btn">글쓰기</button>
+					<div class="btn">글쓰기</div>
 				</div>
 				
 				<div class="tags">
@@ -127,16 +126,8 @@
 				</div>						
 			</div>
 			
-			<div class="paginationBox">
-				<ul class="pagination">
-					<li class="paging-item">prev</li>
-					<li class="paging-item">1</li>
-					<li class="paging-item">2</li>
-					<li class="paging-item">3</li>
-					<li class="paging-item">4</li>
-					<li class="paging-item">5</li>
-					<li class="paging-item">next</li>
-				</ul>
+			<div class="pagination">
+				
 			</div>
 	
 		</div>
