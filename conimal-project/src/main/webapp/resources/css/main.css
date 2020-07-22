@@ -23,6 +23,12 @@
     margin-top: 40px;
   }
 
+  /* info card */
+  .main-info{
+    position: relative;
+    top: -100px;
+  }
+
   /* Main pt2 */
 
 .main-pt2-header{
@@ -81,3 +87,4 @@
     display: flex;
     justify-content: center;
   }
+

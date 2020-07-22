@@ -3,18 +3,19 @@
 
 header {
 	height: 90px; 
-	width: 100%; 
 	/* background-color : #fff; */ 
+  color: #fff;
+  width: 1060px;
 	padding: 30px 50px; 
-	box-sizing: border-box;
+/* 	box-sizing: border-box; */
 	text-align: center; 
 	position: fixed; 
 	top : 0; 
 	z-index : 1000;
+  margin: 0 auto;
 }
 
 .logo {
-	float:left; 
 	font-size: 30px;
 	display:inline-block;
 }
@@ -43,20 +44,11 @@ header {
 }
 
 header .login-btn {
-	width: 30px;
-	height: 30px; 
-	background : #000; 
-	border-radius : 100%;
-	font-size:6px; 
-	color: #fff;
-	line-height: 30px; 
-	text-align: center;
-	display:inline-block; 
-	margin-right: 30px; 
+	background: #fff;
+  color: #002F6C;
+  width: 175px;
+  font-weight: bold;
 	
-}
-header .search-btn {
-	display:inline-block;	
 }
 
 
