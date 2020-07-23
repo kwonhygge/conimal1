@@ -22,14 +22,9 @@
 }
 
 .user-input  {
-	padding: 10px 25px;
 	width: 280px;
-	height: 43px;	
-	border: 2px solid #C8C8C8;
-	box-sizing: border-box;
-	border-radius: 5px;
-	text-align:center;
-	font-weight: bold; 
+	text-align:center;	
+	font-weight: bold;
 }
 
 .user-input::placeholder {

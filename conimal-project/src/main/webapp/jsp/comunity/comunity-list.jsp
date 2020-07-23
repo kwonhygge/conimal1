@@ -19,6 +19,7 @@
 				<div class="community-nav">
 					<div class="search-box">
 						<button class="btn small-btn">검색</button>
+						<input class="search-input" type ="text" placeholder ="검색어를 입력하세요"/>
 						<button class="btn small-btn">10개</button>	
 					</div>
 					<button class="btn small-btn">글쓰기</button>
@@ -127,17 +128,15 @@
 				</div>						
 			</div>
 			
-			<div class="paginationBox">
-				<ul class="pagination">
-					<li class="paging-item">prev</li>
-					<li class="paging-item">1</li>
-					<li class="paging-item">2</li>
-					<li class="paging-item">3</li>
-					<li class="paging-item">4</li>
-					<li class="paging-item">5</li>
-					<li class="paging-item">next</li>
-				</ul>
-			</div>
+			<ul class="pagination clr">
+				<li class="paging-item">r</li>
+				<li class="paging-item">1</li>
+				<li class="paging-item">2</li>
+				<li class="paging-item">3</li>
+				<li class="paging-item">4</li>
+				<li class="paging-item">5</li>
+				<li class="paging-item">r</li>
+			</ul>
 	
 		</div>
 	

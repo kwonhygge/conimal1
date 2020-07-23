@@ -15,121 +15,14 @@
 		
 			<div class="community-intro">
 				<h3 class="title">커뮤니티</h3>
-				<p class="sub">지금 코니멀 커뮤니티에서 사용되고 있는 해시태그를 확인하고 대화에 참여해보세요</p>
-				<div class="community-nav">
-					<div class="search-box">
-				
-					</div>
-					<div class="btn">글쓰기</div>
-				</div>
-				
-				<div class="tags">
-					<div class="tag-name">
-						<span>#</span>
-						<span>asdf</span>
-					</div>
-					<div class="tag-name">
-						<span>#</span>
-						<span>asdf</span>
-					</div>
-					<div class="tag-name">
-						<span>#</span>
-						<span>asdf</span>
-					</div>
-					<div class="tag-name">
-						<span>#</span>
-						<span>asdf</span>
-					</div>
-					<div class="tag-name">
-						<span>#</span>
-						<span>asdf</span>
-					</div>
-					<div class="tag-name">
-						<span>#</span>
-						<span>asdf</span>
-					</div>
-					<div class="tag-name">
-						<span>#</span>
-						<span>asdf</span>
-					</div>
-					<div class="tag-name">
-						<span>#</span>
-						<span>asdf</span>
-					</div>
-					<div class="tag-name">
-						<span>#</span>
-						<span>asdf</span>
-					</div>
-					<div class="tag-name">
-						<span>#</span>
-						<span>asdf</span>
-					</div>
-				</div>
 			</div>
 
-			<div class="board-list" id="noticeTable">
-				<div class="board-item">
-					<div class="board-first-raw">
-						<div>
-							<span class="title bold">게시판 리스트: 콘텐츠 제목1</span>
-							<span class="chat-icon"></span>
-							<span class="view-cnt">1</span>
-							<span class="new">new</span>
-						</div>
-						<span class="user bold">사용자</span>
-					</div>
-					<div class="board-second-raw">				
-						<div class="tags">
-							<div class="tag-name">
-								<span>#</span>
-								<span>asdf</span>
-							</div>
-							<div class="tag-name">
-								<span>#</span>
-								<span>asdf</span>
-							</div>
-							<div class="tag-name">
-								<span>#</span>
-								<span>asdf</span>
-							</div>
-						</div>
-						<span class="date bold">2020.06.25</span>
-					</div>
-				</div>
-				<div class="board-item">
-					<div class="board-first-raw">
-						<div>
-							<span class="title bold">게시판 리스트: 콘텐츠 제목1</span>
-							<span class="chat-icon"></span>
-							<span class="view-cnt">1</span>
-							<span class="new">new</span>
-						</div>
-						<span class="user bold">사용자</span>
-					</div>
-					<div class="board-second-raw">				
-						<div class="tags">
-							<div class="tag-name">
-								<span>#</span>
-								<span>asdf</span>
-							</div>
-							<div class="tag-name">
-								<span>#</span>
-								<span>asdf</span>
-							</div>
-							<div class="tag-name">
-								<span>#</span>
-								<span>asdf</span>
-							</div>
-						</div>
-						<span class="date bold">2020.06.25</span>
-					</div>
-				</div>						
-			</div>
-			
-			<div class="pagination">
-				
-			</div>
-	
+			<input type ="text" class="marB_20" id="cm-title" placeholder="제목을 입력하세요"/>
+			<textarea class="community-contents marB_20" id="cm-contents" placeholder="내용을 입력하세요"></textarea>
+			<input class="community-tags marB_20" type ="text" id="cm-tags" placeholder="태그를 입력하세요"/>
+			<input type ="text" class="community-files marB_20 " id="cm-files" placeholder="파일을 첨부하세요"/>
+			<button class="btn" id="search-btn">찾기</button>
+			<button class="btn" id="upload-btn">업로드</button>
 		</div>
 	
 		

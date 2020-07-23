@@ -56,7 +56,7 @@
 
 .btn {
 	padding: 0 25px;
-	line-height: 43px; 
+	height:43px;
 	border: 2px solid #002F6C;
 	box-sizing: border-box;
 	border-radius: 5px;
@@ -65,12 +65,12 @@
 	text-align:center; 
 	background : #fff; 
 	font-weight: 700; 
+	vertical-align:middle
 }
 
 .btn.small-btn {
-	line-height: 29px; 
+	height: 29px;
 }
-
 
 
 .btn:hover {
@@ -86,6 +86,34 @@
 
 .link.hover {
 	text-decoration-line: underline;
+}
+
+
+/* input */
+
+.search-input {
+	display:inline-block;
+	padding: 0 25px;
+	width: 190px;
+	height: 29px;	
+	line-height:29px;
+	vertical-align:middle;
+	color: #C8C8C8;
+}
+
+input[type=text], textarea {
+	border: 2px solid #C8C8C8;
+	box-sizing: border-box;
+	border-radius: 5px;
+	height: 43px; 
+	width: 100%; 
+	padding: 10px 25px; 
+	font-size: 16px;
+}
+
+input[type=text]::placeholder, textarea::placeholder {
+	font-weight: bold;
+	color: #C8C8C8;
 }
 
 
@@ -116,22 +144,21 @@
 }
 
 
-.paginationBox {
-	
-}
 
 .pagination {
-	
+	width: 200px;
+	margin: 0 auto; 
+	text-align:center;
 }
 
-.paging-item {
-	
+.pagination li {
+	display: inline-block;
+	width: 21px; 
 }
 
-.paging-item:hover {
-	color: #dddddd;
+.pagination li:hover, .pagination li:focus {
+	color: red;
 }
-
 
 /* Card */
 .product-card{
