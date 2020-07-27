@@ -12,6 +12,7 @@
 .marB_40 { margin-bottom: 40px;}
 .marB_45 { margin-bottom: 45px;}
 .marB_50 { margin-bottom: 50px;}
+.marB_60 { margin-bottom: 60px;}
 
 .marR_10 { margin-right: 10px;}
 .marR_20 { margin-right: 20px;}
@@ -27,12 +28,34 @@
 
 .mar0_auto { margin: 0 auto; }
 
+.txt-center {
+	text-align:center;
+}
+
+/* flex */
+
+.justify {
+	display: flex; 
+	justify-content: space-between; 
+}
 
 
 /* 색상 */
 
 .black {
 	background : #000;
+}
+
+.light-gray{
+	color: #c8c8c8
+}
+
+.red {
+	color: #DA291C
+}
+
+.navy {
+	color: #002F6C
 }
 
 
@@ -79,6 +102,10 @@
 }
 
 
+
+
+/* link 링크 */
+
 .link {
 	font-size: 16px;
 	color: #002F6C;
@@ -87,6 +114,9 @@
 .link.hover {
 	text-decoration-line: underline;
 }
+
+
+
 
 
 /* input */
@@ -116,6 +146,20 @@ input[type=text]::placeholder, textarea::placeholder {
 	color: #C8C8C8;
 }
 
+input.red {
+	border: 2px solid #DA291C;
+	color: #DA291C
+}
+
+input.navy {
+	border: 2px solid #002F6C;
+	color: #002F6C
+}
+
+
+
+
+/* 태그 tag */
 
 .tag-name{
 	display:inline-block;
@@ -145,6 +189,10 @@ input[type=text]::placeholder, textarea::placeholder {
 
 
 
+
+
+
+/* 페이징 paging pagination */
 .pagination {
 	width: 200px;
 	margin: 0 auto; 
@@ -159,6 +207,10 @@ input[type=text]::placeholder, textarea::placeholder {
 .pagination li:hover, .pagination li:focus {
 	color: red;
 }
+
+
+
+
 
 /* Card */
 .product-card{

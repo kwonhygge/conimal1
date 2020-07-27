@@ -25,10 +25,38 @@
 	width: 280px;
 	text-align:center;	
 	font-weight: bold;
+	margin-bottom: 6px; 
+	margin: 0 auto;
 }
 
-.user-input::placeholder {
+.user-input input{
+	text-align:center;
+}
+
+.user-input input::placeholder {
 	color: #C8C8C8; 
+}
+
+.err-msg {
+	color:#DA291C; 
+	line-height: 19px;
+	margin-top: 6px;
+	font-size:12px; 
+	display:none;;
+}
+
+.user-email {
+	width: 200px !important;
+	vertical-align: middle;
+}
+
+.auth_btn  {
+	width: 70px; 
+	padding: 0 10px;
+	margin-top: 0;  
+	margin-left: 6px;
+	vertical-align: middle;
+
 }
 
 .login-box div ,
@@ -105,6 +133,7 @@
 	padding-right: 50px;
 	text-align : center; 
 }
+
 
 
 

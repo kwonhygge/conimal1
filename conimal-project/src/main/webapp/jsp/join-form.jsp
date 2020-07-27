@@ -13,24 +13,32 @@
 	<div class="join-container">
 		<div class="join-box">
 		
-			<div>
-				<input class="user-input" id="user-nickname" type="text" placeholder="닉네임" />
+			<div class="user-input" >
+				<input id="user-nickname" type="text" placeholder="닉네임" />
+				<p class="err-msg"></p>
 			</div>
-			<div>
-				<input class="user-input" id="user-id" type="text" placeholder="아이디" />
+			<div class="user-input">
+				<input id="user-id" type="text" placeholder="아이디" />
+				<p class="err-msg">영문 및 숫자조합, 4자리 이상 10자리 이하</p>
 			</div>
-			<div>
-				<input class="user-input" id="user-pwd" type="text" placeholder="비밀번호" />
+			<div class="user-input">
+				<input id="user-pwd" type="text" placeholder="비밀번호" />
+				<p class="err-msg"></p>
 			</div>
-			<div>
-				<input class="user-input" id="check-pwd"type="text" placeholder="비밀번호 재입력" />
+			<div class="user-input">
+				<input id="check-pwd"type="text" placeholder="비밀번호 재입력" />
+				<p class="err-msg"></p>
 			</div>
-			<div>
-				<input class="user-input" id="user-email" type="text" placeholder="이메일" />
-				<input class="user-input" id="auth-btn" type="text" placeholder="인증" />
+			<div class="user-input">
+				<input class="user-email" id="user-email" type="text" placeholder="이메일" />
+				<button class="btn auth_btn marT_20" id ="login">인증</button>
+				<p class="err-msg"></p>
 			</div>
-			
-			
+			<div class="user-input">
+				<input id="auth-email" type="text" placeholder="비밀번호 재입력" />
+				<p class="err-msg"></p>
+			</div>
+	
 			
 			<button class="btn marT_20" id ="login">회원가입</button>
 			

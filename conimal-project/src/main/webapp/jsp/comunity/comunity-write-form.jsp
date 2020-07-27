@@ -20,9 +20,14 @@
 			<input type ="text" class="marB_20" id="cm-title" placeholder="제목을 입력하세요"/>
 			<textarea class="community-contents marB_20" id="cm-contents" placeholder="내용을 입력하세요"></textarea>
 			<input class="community-tags marB_20" type ="text" id="cm-tags" placeholder="태그를 입력하세요"/>
-			<input type ="text" class="community-files marB_20 " id="cm-files" placeholder="파일을 첨부하세요"/>
-			<button class="btn" id="search-btn">찾기</button>
-			<button class="btn" id="upload-btn">업로드</button>
+			<div class="marB_60">
+				<input type ="text" class="community-files marR_10" id="cm-files" placeholder="파일을 첨부하세요"/>
+				<button class="btn" id="search-btn">찾기</button>
+			</div>
+			
+			<div class="txt-center">
+				<button class="btn" id="upload-btn">업로드</button>
+			</div>
 		</div>
 	
 		
