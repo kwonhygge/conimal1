@@ -1,5 +1,141 @@
-/* 게시판 디테일  */
+/* 메인 커뮤니티 */
 
+.community-container {
+	width: 698px; 
+	margin: 0 auto; 
+}
+
+.community-intro {
+	margin-bottom:60px; 
+}
+
+.community-intro .title{
+	color: #002F6C;
+	text-align: center;
+	line-height: 36px;
+	margin-bottom: 20px; 
+}
+
+.community-intro .sub{
+	color: #4f4f4f;
+	text-align:center;
+	margin-bottom:30px; 
+}
+
+
+.community-intro .tags {
+	width: 310px; 	
+	margin: 0 auto; 
+}
+
+
+.select-box {
+	padding: 20px 10px; 
+	
+}
+
+.write-btn {
+  width: 70px;
+  height: 24px;
+  border-radius: 20px;
+  background-color: #eaeaea;
+  border: none; 
+  float: right; 
+  font-size:12px;
+}
+
+
+
+.board-list {
+	width: 100%; 
+	box-sizing: border-box; 
+}
+
+.board-item {
+ 	border-bottom : 1px solid #ddd;
+	text-align:left;  
+	padding: 0 0 15px 0;
+    box-sizing: border-box;
+    margin-bottom: 25px; 
+}
+
+.board-first-raw {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom:10px; 
+}
+
+.board-second-raw {
+	display: flex;
+	justify-content: space-between;
+}
+		
+.new {
+	display:inline-block;
+	width: 44px;
+	height: 21px;
+	background: #D4B59E;
+	color: white; 
+	line-height: 21px; 
+	text-align : center; 
+}
+
+
+
+
+.board-item.view-cnt {
+	width:8%;
+	text-align: right; 
+}
+
+.board.pre-next {
+	width:18%;
+	text-align: left; 
+}
+
+
+.board-item:hover .tag-name {
+	background : #002F6C;
+	color:white;
+}
+
+.board-item:hover .title ,
+.board-item:hover .user ,
+.board-item:hover .date {
+	color:#002F6C;
+}
+
+.board-item:hover .new {
+	background: #A5C8FF;
+}
+
+.board-item:hover .view-cnt {
+	color: #A5C8FF;
+}
+
+
+
+.user-img {
+	display: inline-block; 
+	width: 20px; 
+	height: 20px; 
+	border-radius : 100%; 
+	background : #ddd; 
+	margin-top: -3px;
+    vertical-align: middle;	
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 게시판 디테일  */
 .select-box {
 	padding: 20px 10px; 
 	

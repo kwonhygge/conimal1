@@ -15,10 +15,13 @@
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/reset.css">
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/common.css">
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/layout.css">
-<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/petdic.css">
-<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/FAQ.css">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/content.css">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/FAQ_list.css">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/list.css">
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/login.css">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/my-page.css">
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/comunity.css">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/main.css">
 <script src="${pageContext.request.contextPath}/resources/js/jquery/jquery-2.2.4.min.js"></script>
 <script src="${pageContext.request.contextPath}/resources/js/jquery/jquery-3.3.1.min.js"></script>
 <script>var $j = jQuery.noConflict(true);</script>

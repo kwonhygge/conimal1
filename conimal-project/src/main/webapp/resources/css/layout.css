@@ -3,18 +3,19 @@
 
 header {
 	height: 90px; 
-	width: 100%; 
 	/* background-color : #fff; */ 
+  color: #fff;
+  width: 1060px;
 	padding: 30px 50px; 
-	box-sizing: border-box;
+/* 	box-sizing: border-box; */
 	text-align: center; 
 	position: fixed; 
 	top : 0; 
 	z-index : 1000;
+  margin: 0 auto;
 }
 
 .logo {
-	float:left; 
 	font-size: 30px;
 	display:inline-block;
 }
@@ -43,35 +44,32 @@ header {
 }
 
 header .login-btn {
-	width: 30px;
-	height: 30px; 
-	background : #000; 
-	border-radius : 100%;
-	font-size:6px; 
-	color: #fff;
-	line-height: 30px; 
-	text-align: center;
-	display:inline-block; 
-	margin-right: 30px; 
+	background: #fff;
+  color: #002F6C;
+  width: 175px;
+  font-weight: bold;
 	
 }
-header .search-btn {
-	display:inline-block;	
-}
+
+
+
 
 /* 페이지 컨테이너  */
 
 .page-container{
-	width: 861px; 
+	width: 1060px; 
 	margin: auto; 
 	margin-top: 120px; 
 	padding-top: 30px; 
 	
 }
 
+
+
+
+
+
 /* 메인 컨텐츠 */
-
-
 .main-container {
 	display: flex;
 	position: relative;
@@ -87,6 +85,8 @@ header .search-btn {
 	padding: 90px 0;
 	 
 }
+
+
 
 /* 메인 펫과사전 */
 
@@ -135,152 +135,56 @@ header .search-btn {
 }
 
 
-/* 메인 커뮤니티 */
 
-.community {
-	background: #fff;
-	padding: 130px 50px; 
-	box-sizing : border-box;
-	text-align: center;
+
+/* 사이드메뉴 영역 aisde */
+
+aside {
+	width: 250px; 
+	height: 447px; 
+	padding : 50px 20px; 
+	box-sizing: border-box;
+	border: 2px solid #F0F0F0; 
+	float: left;
+	text-align:center;  
 }
 
-.select-box {
-	padding: 20px 10px; 
+
+.nickname {
+	line-height: 36px; ;
+	margin-bottom: 15px; 
+	display:inline-block; 
 	
 }
 
-.write-btn {
-  width: 70px;
-  height: 24px;
-  border-radius: 20px;
-  background-color: #eaeaea;
-  border: none; 
-  float: right; 
-  font-size:12px;
+.userId {
+	font-family: Noto Sans CJK KR;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 21px; 
+	color: #c8c8c8; 
+	margin-bottom: 37px; 
 }
 
-
-
-.board-list {
-	width: 100%; 
-	padding: 0 20px;
-	box-sizing: border-box; 
-}
-
-.board-item {
-	height: 60px;
- 	border-bottom : 1px solid #ddd;
- 	line-height: 60px; 	
-	text-align:left;
-	display: flex;
-	 
-}
-
-.new {
-	display:inline-block;
-	width: 30px; 
-	height: 30px; 
-	border-radius : 100%; 
-	background: yellow;
-    line-height: 30px;
-    text-align: center;
-
-}
-
-.new span {
-    line-height: 30px;
-    font-size: 7px;
-    text-align: center;
-}
-
-.board {
-  font-size: 14px;
-  font-weight: 500;
-}
-
-
-.board.tit {
-	width: 80%;
-	text-align: left; 
-}
-
-.board.name {
-	width: 20%;
-	text-align: right; 
-}
-
-.board.date {
-	width: 18%;
-	text-align: right; 
-}
-
-
-.board.view-cnt {
-	width:8%;
-	text-align: right; 
-}
-
-.board.pre-next {
-	width:18%;
-	text-align: left; 
-}
-
-
-
-.user-img {
-	display: inline-block; 
-	width: 20px; 
-	height: 20px; 
-	border-radius : 100%; 
-	background : #ddd; 
-	margin-top: -3px;
-    vertical-align: middle;	
-}
-
-
-.more-btn {
-  width: 120px;
-  height: 40px;
-  border-radius: 21px;
-  background-color: #eaeaea;
-  text-align:center; 
-  font-weight: 600; 
-  font-size: 16px; 
-  border: none;
-   
-  display: inline-block; 
-  margin: 40px auto; 
-}
-
-/* 베스트  */
-
-.best {
-	display:inline-block;
-	width: 30px; 
-	height: 30px; 
-	border-radius : 100%; 
-	background: green;
-    line-height: 30px;
-    text-align: center;
-
-}
-
-.best span {
-    line-height: 30px;
-    font-size: 7px;
-    text-align: center;
-}
-
-.best-board {
-	background: #aaa;
+.my-page-list li {
+	line-height: 23px; 
+	font-size: 16px; 
+	color: #828282;
 	margin-bottom: 20px; 
 }
 
-.best-board .board-item:last-child {
-	border-bottom: none;
-}
 
-/* 자주 묻는 질문 */
+/* 서브 컨테이너 */
+
+.sub-container {
+	width: 790px;
+	height: auth;
+	float: right; 
+	border: 2px solid #F0F0F0;
+	box-sizing: border-box;
+	padding: 46px; 
+}
 
 
 
