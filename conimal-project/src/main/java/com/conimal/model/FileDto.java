@@ -1,4 +1,4 @@
-package main.java.com.conimal.model;
+package com.conimal.model;
 
 import java.util.Date;
 

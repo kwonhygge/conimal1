@@ -1,8 +1,10 @@
-package main.java.com.conimal.dao;
+package com.conimal.dao;
 
-import org.apache.ibatis.session.SqlSession;
+import java.util.List;
 
-import main.java.com.conimal.model.UserDto;
+import org.mybatis.spring.support.SqlSessionDaoSupport;
+
+import com.conimal.model.UserDto;
 
 public class UserDao extends SqlSessionDaoSupport {
 	

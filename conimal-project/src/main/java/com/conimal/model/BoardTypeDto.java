@@ -1,4 +1,4 @@
-package main.java.com.conimal.model;
+package com.conimal.model;
 
 public class BoardTypeDto {
 	private int official; // 펫과사전 

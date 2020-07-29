@@ -1,4 +1,8 @@
-package src.main.java.com.conimal.service;
+package com.conimal.service;
+
+import java.util.List;
+
+import com.conimal.model.UserDto;
 
 public interface UserService {
 	
