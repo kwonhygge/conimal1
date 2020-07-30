@@ -1,4 +1,8 @@
-package src.main.java.com.conimal.www;
+package com.conimal.www;
+
+import org.springframework.stereotype.Controller;
+
+import com.conimal.service.MypageService;
 
 @Controller
 public class MypageController {

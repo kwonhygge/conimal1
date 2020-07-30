@@ -13,7 +13,7 @@ public class UserDao extends SqlSessionDaoSupport {
 	}
 
 	public UserDto getUserInfo(int user_idx) throws Exception {
-		return getSqlSession().select("user.getUserInfo", user_idx);
+		return getSqlSession().selectOne("user.getUserInfo", user_idx);
 	}
 	
 	public int insertUser(UserDto userDto) throws Exception {
