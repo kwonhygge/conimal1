@@ -27,6 +27,7 @@
 	font-weight: bold;
 	margin-bottom: 6px; 
 	margin: 0 auto;
+	margin-bottom: 15px;
 }
 
 .user-input input{
@@ -57,12 +58,6 @@
 	margin-left: 6px;
 	vertical-align: middle;
 
-}
-
-.login-box div ,
-.join-box div{ 
-	margin-bottom: 15px;
-	align-items: center; 
 }
 
 .login-box div span{
@@ -105,17 +100,6 @@
 	text-align: center;
 	width: 200px; 
 	margin: 0 auto; 
-}
-
-.user-find-box a{
-	font-size:12px; 
-	font-weight: bold; 
-	display: block; 
-	color: #000; 
-	text-decoration : none;
-	text-align: center;
-	line-heigth: 30px; 
-	margin-bottom: 20px; 
 }
 
 

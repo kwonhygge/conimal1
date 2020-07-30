@@ -180,6 +180,12 @@ aside {
 	font-size: 16px; 
 	color: #828282;
 	margin-bottom: 20px; 
+	font-weight:bold;
+}
+
+.my-page-list li:hover {
+	cursor: pointer;
+	color: #002F6C;
 }
 
 

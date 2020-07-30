@@ -29,8 +29,8 @@
 			</div>
 		</div>
 		<div class="user-find-box">
-			<a href ="#">아이디 / 비밀번호 찾기</a>
-			<a href ="#">회원가입</a>
+			<a href ="#" class="text-button">아이디 / 비밀번호 찾기</a>
+			<a href ="#" class="text-button">회원가입</a>
 		</div>
 	
 	</div>

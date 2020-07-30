@@ -22,11 +22,27 @@
 		
 		
 		<h3 class="marB_30">내 뱃지</h3>
-		<div class="my-badge marB_50"> 
-			<div class="badge"></div>
-			<div class="badge"></div>
-			<div class="badge"></div>
-			<div class="badge"></div>
+		<div class="badge-box marB_50"> 
+			<div class="my-badge">
+				<div class="badge"></div>
+				<p class="badge-title">뱃지타이틀</p>
+			</div>
+			<div class="my-badge">
+				<div class="badge"></div>
+				<p class="badge-title">뱃지타이틀</p>
+			</div>
+			<div class="my-badge">
+				<div class="badge"></div>
+				<p class="badge-title">뱃지타이틀</p>
+			</div>
+			<div class="my-badge">
+				<div class="badge"></div>
+				<p class="badge-title">뱃지타이틀</p>
+			</div>
+			<div class="my-badge">
+				<div class="badge"></div>
+				<p class="badge-title">뱃지타이틀</p>
+			</div>
 		</div>
 		
 		<h3 class="marB_30">내 반려동물</h3>

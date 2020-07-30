@@ -23,8 +23,10 @@
 }
 
 
-.community-intro .tags {
-	width: 310px; 	
+.community-intro .tags { 
+	width: 644px;
+	padding: 10px; 
+	box-sizing: border-box;
 	margin: 0 auto; 
 }
 
@@ -33,6 +35,19 @@
 	display: flex; 
 	justify-content: space-between;
 	margin-bottom: 40px;
+}
+
+.community-intro .search-input {
+	display:inline-block;
+	padding: 0 25px;
+	width: 190px;
+	height: 29px;	
+	line-height:29px;
+	vertical-align:middle;
+	color: #C8C8C8;
+	margin-right: 6px;
+	margin-left: 2px;
+	font-size: 14px;
 }
 
 .write-btn {
@@ -94,6 +109,9 @@
 	text-align: left; 
 }
 
+.community-intro .tag-name {
+	margin-bottom: 10px;
+}
 
 .board-item:hover .tag-name {
 	background : #002F6C;
@@ -102,6 +120,7 @@
 
 .board-item:hover .title ,
 .board-item:hover .user ,
+.board-item:hover .comment,
 .board-item:hover .date {
 	color:#002F6C;
 }
